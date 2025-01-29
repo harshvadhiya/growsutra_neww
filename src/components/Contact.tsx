@@ -18,19 +18,19 @@ const Contact = () => {
             <div className="space-y-6">
               <div className="flex items-center">
                 <Mail className="h-6 w-6 mr-4" />
-                <span>contact@growsutra.com</span>
+                <span>info@growsutra.com</span>
               </div>
               <div className="flex items-center">
                 <Phone className="h-6 w-6 mr-4" />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 9687968531</span>
               </div>
               <div className="flex items-center">
                 <MapPin className="h-6 w-6 mr-4" />
-                <span>123 Tech Street, Silicon Valley, CA 94025</span>
+                <span>Chendkheda, Ahmedabad, Gujarat.</span>
               </div>
             </div>
 
-            <div className="mt-8">
+            {/* <div className="mt-8">
               <h4 className="text-xl font-semibold mb-4">Follow Us</h4>
               <div className="flex space-x-4">
                 <a href="#" className="hover:text-indigo-200 transition-colors duration-200">
@@ -43,7 +43,7 @@ const Contact = () => {
                   <Facebook className="h-6 w-6" />
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div className="bg-white rounded-xl shadow-lg p-8">

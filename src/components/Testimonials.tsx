@@ -30,13 +30,13 @@ const Testimonials = () => {
     <section id="testimonials" className="py-16 bg-indigo-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Client Testimonials</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Stats</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Don't just take our word for it. Here's what our clients have to say about working with us.
+          Numbers That Define Our Success - Delivering Innovation, One Project at a Time
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        {/* <div className="grid md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="bg-white rounded-xl shadow-lg p-8">
               <div className="flex items-center mb-6">
@@ -58,16 +58,16 @@ const Testimonials = () => {
               <p className="text-gray-600 italic">"{testimonial.content}"</p>
             </div>
           ))}
-        </div>
+        </div> */}
 
         <div className="mt-16 bg-white rounded-xl shadow-lg p-8">
           <div className="grid md:grid-cols-4 gap-8 items-center">
             <div className="text-center md:border-r border-gray-200">
-              <h4 className="text-4xl font-bold text-indigo-600 mb-2">200+</h4>
+              <h4 className="text-4xl font-bold text-indigo-600 mb-2">10+</h4>
               <p className="text-gray-600">Projects Completed</p>
             </div>
             <div className="text-center md:border-r border-gray-200">
-              <h4 className="text-4xl font-bold text-indigo-600 mb-2">50+</h4>
+              <h4 className="text-4xl font-bold text-indigo-600 mb-2">5+</h4>
               <p className="text-gray-600">Team Members</p>
             </div>
             <div className="text-center md:border-r border-gray-200">
@@ -75,8 +75,8 @@ const Testimonials = () => {
               <p className="text-gray-600">Client Satisfaction</p>
             </div>
             <div className="text-center">
-              <h4 className="text-4xl font-bold text-indigo-600 mb-2">15+</h4>
-              <p className="text-gray-600">Countries Served</p>
+              <h4 className="text-4xl font-bold text-indigo-600 mb-2">2+</h4>
+              <p className="text-gray-600">Years & Counting</p>
             </div>
           </div>
         </div>

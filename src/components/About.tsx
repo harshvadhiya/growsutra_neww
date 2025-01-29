@@ -47,26 +47,27 @@ const About = () => {
             <div>
               <h3 className="text-2xl font-bold mb-4">Our Journey</h3>
               <p className="text-gray-600 mb-6">
-                Founded in 2015, Grow Sutra has evolved from a small web development agency to a comprehensive IT solutions provider. 
-                We've successfully delivered over 200 projects across various industries, building long-lasting partnerships with our clients.
+              At Grow Sutra, we are driven by a passion for technology and innovation. Our journey began with a simple vision: to empower businesses with cutting-edge IT solutions.
+
+
               </p>
               <ul className="space-y-4">
                 <li className="flex items-center text-gray-600">
-                  <span className="w-16 font-semibold">2015</span>
-                  <span>Company founded</span>
+                  <span className="w-16 font-semibold">2023  </span>
+                  <span>Grow Sutra was founded with a commitment to providing top-notch web and mobile app development services.</span>
                 </li>
                 <li className="flex items-center text-gray-600">
-                  <span className="w-16 font-semibold">2018</span>
-                  <span>Expanded to mobile development</span>
+                  <span className="w-16 font-semibold">2024  </span>
+                  <span>Expanded our expertise to AI-driven solutions, helping businesses automate and scale efficiently.</span>
                 </li>
                 <li className="flex items-center text-gray-600">
-                  <span className="w-16 font-semibold">2020</span>
-                  <span>Launched AI solutions division</span>
+                  <span className="w-16 font-semibold">2025  </span>
+                  <span>Expanded our reach, collaborating with businesses across various industries to deliver high-quality, scalable IT solutions."</span>
                 </li>
-                <li className="flex items-center text-gray-600">
+                {/* <li className="flex items-center text-gray-600">
                   <span className="w-16 font-semibold">2023</span>
                   <span>Global expansion & 200+ projects milestone</span>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div className="relative">

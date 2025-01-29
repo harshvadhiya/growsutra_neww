@@ -15,13 +15,13 @@ const Hero = () => {
               From custom development to AI integration, we're your partner in digital success.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="flex items-center justify-center px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors duration-200">
+              {/* <button className="flex items-center justify-center px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors duration-200">
                 Get Started
                 <ArrowRight className="ml-2 h-5 w-5" />
               </button>
               <button className="flex items-center justify-center px-6 py-3 border-2 border-indigo-600 text-indigo-600 rounded-lg hover:bg-indigo-50 transition-colors duration-200">
                 View Portfolio
-              </button>
+              </button> */}
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4">
@@ -41,7 +41,7 @@ const Hero = () => {
               <p className="text-gray-600">Intelligent automation systems</p>
             </div>
             <div className="bg-gradient-to-br from-indigo-600 to-indigo-700 p-6 rounded-xl shadow-lg text-white">
-              <h3 className="text-xl font-semibold mb-2">200+</h3>
+              <h3 className="text-xl font-semibold mb-2">10+</h3>
               <p>Successful Projects</p>
             </div>
           </div>

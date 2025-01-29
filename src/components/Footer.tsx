@@ -22,7 +22,6 @@ const Footer = () => {
               <li><a href="#home" className="text-gray-400 hover:text-white">Home</a></li>
               <li><a href="#about" className="text-gray-400 hover:text-white">About</a></li>
               <li><a href="#services" className="text-gray-400 hover:text-white">Services</a></li>
-              <li><a href="#portfolio" className="text-gray-400 hover:text-white">Portfolio</a></li>
             </ul>
           </div>
           
@@ -39,10 +38,10 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-gray-400">
-              <li>123 Tech Street</li>
-              <li>Silicon Valley, CA 94025</li>
-              <li>contact@growsutra.com</li>
-              <li>+1 (555) 123-4567</li>
+              <li>Chandkheda</li>
+              <li>Ahmedabad, Gujarat</li>
+              <li>info@growsutra.com</li>
+              <li>+91 9687968531</li>
             </ul>
           </div>
         </div>
@@ -52,11 +51,11 @@ const Footer = () => {
             <p className="text-gray-400">
               © {new Date().getFullYear()} Grow Sutra. All rights reserved.
             </p>
-            <div className="flex space-x-6 mt-4 md:mt-0">
+            {/* <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-400 hover:text-white">Privacy Policy</a>
               <a href="#" className="text-gray-400 hover:text-white">Terms of Service</a>
               <a href="#" className="text-gray-400 hover:text-white">Cookie Policy</a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

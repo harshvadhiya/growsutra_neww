@@ -73,9 +73,9 @@ const Services = () => {
         </div>
 
         <div className="mt-16 text-center">
-          <button className="bg-indigo-600 text-white px-8 py-3 rounded-lg hover:bg-indigo-700 transition-colors duration-200">
+          {/* <button className="bg-indigo-600 text-white px-8 py-3 rounded-lg hover:bg-indigo-700 transition-colors duration-200">
             Schedule a Consultation
-          </button>
+          </button> */}
         </div>
       </div>
     </section>
